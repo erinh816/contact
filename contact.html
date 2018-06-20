@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{margin:0;padding:0;}
+            header{display:block;
+                   background-color:white;
+                   height:70px;
+                   border-bottom:1px solid rgb(180, 180, 184);}
+            
+            h1{text-align: center;
+                color:white;
+                display:block;
+                background-color:rgb(22, 148, 148);
+                height:40px;
+                width:200px;
+                margin-left:280px;
+                padding-top:15px;
+                padding-bottom:15px;
+                float:left;}
+
+            ul{font-size:15px;
+               list-style-type:none;
+               padding-left:820px;
+               padding-top:50px;}
+        
+            section{display:block;
+                    background-color:rgb(233, 227, 227);
+                    height:560px;
+                    border-bottom:3px solid rgb(22, 148, 148);}
+
+            div{background-color:white;
+                border: 1px solid rgb(185, 182, 182);
+                height:330px;
+                width:600px;
+                margin-top:20px;
+                margin-left:280px;
+                padding:30px 50px 20px 50px;
+                float:left;}
+            
+            footer{color:white;
+                   background-color:grey;
+                   height:25px;
+                   text-align:center;
+                   font-size:10px;
+                   padding-top:25px;
+                   padding-bottom:0px;
+                   margin-bottom:0px}
+
+            input{width:100%;}
+
+            input[type="message"]{padding-bottom:90px;}
+
+            a:link{text-decoration:none;
+                   color:grey;}
+            h2{color:rgb(22, 148, 148);
+               margin-top:1px;}
+            form{color:grey;}
+            button{color:white;
+                   background-color:rgb(22, 148, 148);
+                   margin-top:20px;
+                   padding:10px 20px 10px 20px;}
+            
+            input[type="name"]{margin-bottom:20px;}
+            input[type="email"]{margin-bottom:20px;}
+         
+        </style>
+    </head>
+
+
+    <body>
+        <header>
+            <h1>Your Name</h1>
+            <ul>
+                <li style="display:inline"><a href="#">About  |</a></li>
+                <li style="display:inline"><a href="#">Portfolio   |</a></li>
+                <li style="display:inline"><a href="#">Contact</a></li>
+            </ul>
+        </header>
+
+        <section class="form">
+
+            <div class="content">
+            <h2>Contact</h2>
+            <form>
+                Name:<br>
+                <input type="name" name="name"><br>
+                Email:<br>
+                <input type="email" name="email"><br>
+                Message:<br>
+                <input type="message" name="message"><br>
+            </form>
+            <button type="button">Submit</button>
+            </div>
+
+        </section>
+
+        <footer>Copyright ©</footer>
+      
+
+    </body>
+</html>
